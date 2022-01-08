@@ -628,6 +628,38 @@ progress {
   color: #6c757d;
 }
 
+
+/*RECOMMENDATIONS*/
+
+/*council*/
+
+.council img{
+  width: 70%;
+  border-radius: 50%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+blockquote .svg-inline--fa{
+  color: #9E1623;
+  margin: 1rem;
+}
+.council-hr{
+  border-top: .05rem solid #9E1623;;
+}
+.rec-p{
+  font-size: .7rem;
+  /*font-style: italic;*/
+}
+
+@media (max-width: 768px) {
+  .council img{
+    max-width: 40%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+
 .container,
 .container-fluid,
 .container-xxl,
